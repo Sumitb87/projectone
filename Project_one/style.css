@@ -1,0 +1,47 @@
+h1 { color: white;
+  text-align: center;
+  background-color: black;
+  border-color: red;
+  background-size: contain;
+}
+
+body {
+  background: url("imgs/usa-soccer-5.jpg");
+  background-position: bottom;
+}
+
+.mainCard {
+display: flex;
+justify-content: center;
+margin: 5%;
+
+}
+
+.first-container {
+display: flex;
+flex-direction: row;
+justify-content: center;
+position: absolute;
+margin: 11%;
+margin-left: 40vw;
+
+/*display: inline-block;
+justify-content: center;
+position: absolute;
+top: 25px;
+left: 25px;
+z-index: 1;*/
+}
+
+.second-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 21vw;
+  margin-left: 40vw;
+  position: absolute;
+}
+p {
+  color: white;
+text-align: center;
+}
